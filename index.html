@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -33,73 +34,42 @@
 
     <!-- Project Section -->
     <section id="projects">
-      <h2>My Projects</h2>
-
-      <div class="carousel">
-        <div class="carousel-container">
-          <div class="project-tile">
-            <img
-              src="https://images.unsplash.com/photo-1695048133021-be2def43f3b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Project 1"
-            />
-            <h3>Project 1</h3>
-            <p>Short description of the project.</p>
-            <a href="" target="_blank">View project</a>
+      <div class="stack-area">
+        <div class="left">
+          <div class="title fade-in">My Projects</div>
+          <div class="sub-title fade-in">
+            Here are some of the projects I've worked on.
+            <br />
+            <button  class="fade-in" onclick="window.open('https://github.com/Full-Stack-Atok', '_blank')">
+              View More</button>
           </div>
-          <div class="project-tile">
-            <img
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Project 2"
-            />
-            <h3>Project 2</h3>
-            <p>Short description of the project.</p>
-            <a href="" target="_blank">View project</a>
+        </div>
+        <div class="right">
+          <div class="card ">
+            <div class="sub">Building a Penguin</div>
+            <div class="content">An HTML & CSS project creating a cute penguin illustration</div>
           </div>
-          <div class="project-tile">
-            <img
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Project 2"
-            />
-            <h3>Project 2</h3>
-            <p>Short description of the project.</p>
-            <a href="" target="_blank">View project</a>
+          <div class="card ">
+            <div class="sub">MERN Stack Website</div>
+            <div class="content">A full-stack web project built with MERN</div>
           </div>
-          <div class="project-tile">
-            <img
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Project 2"
-            />
-            <h3>Project 2</h3>
-            <p>Short description of the project.</p>
-            <a href="" target="_blank">View project</a>
+          <div class="card ">
+            <div class="sub">Building a Music Player</div>
+            <div class="content">A simple interactive music player using JavaScript</div>
           </div>
-          <div class="project-tile">
-            <img
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Project 2"
-            />
-            <h3>Project 2</h3>
-            <p>Short description of the project.</p>
-            <a href="" target="_blank">View project</a>
-          </div>
-          <div class="project-tile">
-            <img
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Project 2"
-            />
-            <h3>Project 2</h3>
-            <p>Short description of the project.</p>
-            <a href="" target="_blank">View project</a>
+          <div class="card ">
+            <div class="sub">Role-Playing Game (RPG)</div>
+            <div class="content">A turn-based RPG built using JavaScript</div>
           </div>
         </div>
       </div>
-    </section>
 
     <!-- About Me Section -->
     <section id="about">
       <h2>About me</h2>
       <p>
-        I'm a developer with experience in web technologies. I love coding and
+        I'm a <a href="https://www.facebook.com/profile.php?id=61567812544551" target="_blank" class="professional-link">
+          Developer</a> with experience in web technologies. I love coding and
         problem-solving.
       </p>
     </section>
